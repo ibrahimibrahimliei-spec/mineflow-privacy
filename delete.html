@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mine Flow – Delete your account</title>
+<style>
+  :root { --bg:#fbf7f0; --ink:#2a1f16; --dim:#6b5a4a; --acc:#b7791f; --card:#fff; --line:#e7dccb; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1c1712; --ink:#f3ead9; --dim:#b9a88f; --acc:#ffc531; --card:#261f18; --line:#3a2f24; } }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:24px 16px 64px; }
+  h1 { font-size:28px; margin:8px 0 4px } h2 { font-size:20px; margin:32px 0 8px; color:var(--acc) } h3 { font-size:17px; margin:20px 0 6px }
+  .meta { color:var(--dim); font-size:14px }
+  nav { display:flex; gap:8px; flex-wrap:wrap; margin:16px 0 8px }
+  nav a { padding:6px 14px; border:1px solid var(--line); border-radius:20px; text-decoration:none; color:var(--ink); background:var(--card); font-weight:600 }
+  section.lang { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:8px 20px 20px; margin-top:24px }
+  table { border-collapse:collapse; width:100%; font-size:14px } td, th { border:1px solid var(--line); padding:6px 8px; text-align:left; vertical-align:top }
+  a { color:var(--acc) }
+</style>
+</head>
+<body>
+<main>
+<h1>Mine Flow</h1>
+<div class="meta">Delete your account and data · Effective date: 16 October 2026 · <a href="./">Privacy Policy</a></div>
+<nav><a href="#en">English</a><a href="#az">Azərbaycanca</a><a href="#tr">Türkçe</a></nav>
+
+<section class="lang" id="en" lang="en">
+<h2>Delete your Mine Flow account</h2>
+<p>Mine Flow (developer: <b>Ibrahim Ibrahimli</b>) does not ask for an email or password. The game creates an anonymous player ID and keeps a few records under it. You can delete all of them.</p>
+<h3>In the game (fastest)</h3>
+<ol>
+<li>Open the game and tap <b>⚙️ Settings</b>.</li>
+<li>In <b>Account</b>, tap <b>My data</b>.</li>
+<li>Tap <b>Delete my account</b>, wait 5 seconds and tap <b>Delete for good</b>.</li>
+</ol>
+<p>The internet must be on. The game deletes everything at once and starts again as a new game.</p>
+<h3>Without the game (you uninstalled it)</h3>
+<p>Email <a href="mailto:ibrahimibrahimli.ei@gmail.com?subject=Delete%20my%20data">ibrahimibrahimli.ei@gmail.com</a> with the subject <b>"Delete my data"</b>. Write your player name and, if you know it, your player ID or invite code (both are shown in Settings › My data). We delete the data within 30 days and reply when it is done.</p>
+<h3>What is deleted</h3>
+<table>
+<tr><th>Data</th><th>What happens</th></tr>
+<tr><td>Player name, country flag, ranking, tournament, country race, dig race and build race entries, cheers, achievement marks, notification token (Firebase Firestore)</td><td>Deleted</td></tr>
+<tr><td>The anonymous Firebase sign-in (player ID)</td><td>Deleted</td></tr>
+<tr><td>Cloud save in Google Play Games (Saved Games)</td><td>Deleted when you are signed in to Play Games; you can also delete it in the Google Play Games app</td></tr>
+<tr><td>Progress, coins, crystals and the town on the phone</td><td>Deleted (uninstalling the game also deletes them)</td></tr>
+<tr><td>Anonymous analytics (Firebase Analytics) and crash reports (Firebase Crashlytics, Sentry)</td><td>Reset on the phone and no longer linked to you; the old records expire automatically (analytics after up to 14 months, crash reports after up to 90 days)</td></tr>
+<tr><td>Purchases</td><td>Google keeps the order records in your Google Play account, as the law requires; the game does not keep them</td></tr>
+<tr><td>Play Games achievements</td><td>Kept by Google in your Play Games profile; you can manage them in the Google Play Games app</td></tr>
+</table>
+</section>
+
+<section class="lang" id="az" lang="az">
+<h2>Mine Flow hesabını silmək</h2>
+<p>Mine Flow (tərtibatçı: <b>Ibrahim Ibrahimli</b>) e-poçt və ya parol istəmir. Oyun anonim oyunçu ID-si yaradır və bir neçə qeydi onun altında saxlayır. Hamısını silə bilərsən.</p>
+<h3>Oyunda (ən tez yol)</h3>
+<ol>
+<li>Oyunu aç və <b>⚙️ Parametrlər</b>-ə toxun.</li>
+<li><b>Hesab</b> bölməsində <b>Məlumatlarım</b>-a toxun.</li>
+<li><b>Hesabımı sil</b>-ə toxun, 5 saniyə gözlə və <b>Həmişəlik sil</b>-ə toxun.</li>
+</ol>
+<p>İnternet açıq olmalıdır. Oyun hər şeyi bir anda silir və yeni oyun kimi başlayır.</p>
+<h3>Oyun olmadan (oyunu silmisənsə)</h3>
+<p><a href="mailto:ibrahimibrahimli.ei@gmail.com?subject=Delete%20my%20data">ibrahimibrahimli.ei@gmail.com</a> ünvanına <b>"Delete my data"</b> mövzusu ilə yaz. Oyunçu adını və bilirsənsə oyunçu ID-ni və ya dəvət kodunu yaz (ikisi də Parametrlər › Məlumatlarım-da görünür). Məlumatları 30 gün ərzində silirik və bitəndə cavab yazırıq.</p>
+<h3>Nə silinir</h3>
+<p>Oyunçu adı, bayraq, reytinq, turnir, ölkə, qazma və tikinti yarışı qeydləri, alqışlar, nailiyyət qeydləri, bildiriş tokeni, anonim Firebase girişi, Google Play Games bulud yaddaşı və telefondakı irəliləyiş silinir. Anonim analitika və çökmə hesabatları sənə bağlı qalmır və öz-özünə silinir (analitika 14 aya qədər, çökmə hesabatları 90 günə qədər). Alış qeydlərini qanuna görə Google öz hesabında saxlayır. Play Games nailiyyətlərini Google Play Games tətbiqində idarə edə bilərsən.</p>
+</section>
+
+<section class="lang" id="tr" lang="tr">
+<h2>Mine Flow hesabını silmek</h2>
+<p>Mine Flow (geliştirici: <b>Ibrahim Ibrahimli</b>) e-posta veya şifre istemez. Oyun anonim bir oyuncu kimliği oluşturur ve birkaç kaydı onun altında tutar. Hepsini silebilirsin.</p>
+<h3>Oyunda (en hızlı yol)</h3>
+<ol>
+<li>Oyunu aç ve <b>⚙️ Ayarlar</b>'a dokun.</li>
+<li><b>Hesap</b> bölümünde <b>Verilerim</b>'e dokun.</li>
+<li><b>Hesabımı sil</b>'e dokun, 5 saniye bekle ve <b>Kalıcı olarak sil</b>'e dokun.</li>
+</ol>
+<p>İnternet açık olmalı. Oyun her şeyi bir anda siler ve yeni bir oyun olarak başlar.</p>
+<h3>Oyun olmadan (oyunu sildiysen)</h3>
+<p><a href="mailto:ibrahimibrahimli.ei@gmail.com?subject=Delete%20my%20data">ibrahimibrahimli.ei@gmail.com</a> adresine <b>"Delete my data"</b> konusuyla yaz. Oyuncu adını ve biliyorsan oyuncu kimliğini veya davet kodunu yaz (ikisi de Ayarlar › Verilerim'de görünür). Verileri 30 gün içinde siler ve bitince yanıt veririz.</p>
+<h3>Neler silinir</h3>
+<p>Oyuncu adı, bayrak, sıralama, turnuva, ülke, kazı ve inşaat yarışı kayıtları, alkışlar, başarım kayıtları, bildirim belirteci, anonim Firebase girişi, Google Play Games bulut kaydı ve telefondaki ilerleme silinir. Anonim analitik ve çökme raporları sana bağlı kalmaz ve kendiliğinden silinir (analitik en fazla 14 ay, çökme raporları en fazla 90 gün). Satın alma kayıtlarını yasa gereği Google kendi hesabında tutar. Play Games başarımlarını Google Play Games uygulamasında yönetebilirsin.</p>
+</section>
+</main>
+</body>
+</html>
