@@ -22,7 +22,7 @@
 <body>
 <main>
 <h1>Mine Flow</h1>
-<div class="meta">Privacy Policy &amp; Terms of Use · Effective date: 16 October 2026 · <a href="terms.html">Terms of Service</a></div>
+<div class="meta">Privacy Policy &amp; Terms of Use · Effective date: 19 November 2026 · <a href="terms.html">Terms of Service</a></div>
 <nav><a href="#en">English</a><a href="#az">Azərbaycanca</a><a href="#tr">Türkçe</a></nav>
 
 <section class="lang" id="en" lang="en">
@@ -44,6 +44,7 @@
 <tr><td>Country code (for example "AZ"), taken on the phone from the mobile network or SIM country, else the phone's language region; you can change it in the profile</td><td>Showing a small flag next to player names, the weekly country race and grouping players by country. No IP lookup and no third-party service is used for it.</td><td>The game, on your device</td></tr>
 <tr><td>Only if you sign in to Google Play Games (optional): Play Games player ID and display name, and your saved game progress</td><td>Signing in and keeping your progress in the cloud (Google Play Games Saved Games)</td><td>Google Play Games Services</td></tr>
 <tr><td>Anonymous Firebase user ID, the player name you chose, country code, tournament scores, country race rocks, invite code entries</td><td>Online leaderboards, the country race and rewards for inviting friends</td><td>Google Firebase (Authentication, Cloud Firestore)</td></tr>
+<tr><td>A short game summary linked to your anonymous player ID: the player name you chose, country code, language, app version and store, levels won, player level, in-game gold and crystals, number of purchases, VIP and no-ads status, first play date, days played and when you last played; and the messages, gifts and any account restriction we send to you</td><td>Player support (finding your account when you write to us, sending a gift or a fix), fair play on the leaderboards, and simple statistics about how the game is played</td><td>Google Firebase (Cloud Firestore)</td></tr>
 <tr><td>Push notification token (FCM), only if you allow notifications</td><td>Sending event announcements; local reminders (lives full, a building done) are made on your device and send nothing</td><td>Google Firebase Cloud Messaging</td></tr>
 <tr><td>Purchase information (order ID, product, status)</td><td>Delivering in-app purchases</td><td>Google Play Billing</td></tr>
 </table>
@@ -65,7 +66,7 @@
 <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&amp;ldt=privacynotice">Google Payments</a>.</p>
 
 <h3>6. Data retention and deletion</h3>
-<p>Analytics data is kept by Firebase for up to 14 months; crash reports for up to 90 days. Leaderboard, country race and invite entries are kept for 12 months. You can delete your account and all data linked to it in the game (Settings › My data › Delete my account), see <a href="delete.html">Delete your account</a>. You can also ask us to delete any data linked to your device or your anonymous player ID (shown in Settings › My data) by emailing <a href="mailto:mineflow.games@gmail.com">mineflow.games@gmail.com</a> with the subject "Delete my data". Your cloud save can be deleted in the Google Play Games app. Uninstalling the game removes all progress stored on your device.</p>
+<p>Analytics data is kept by Firebase for up to 14 months; crash reports for up to 90 days. Leaderboard, country race and invite entries are kept for 12 months. The game summary is deleted after 12 months without play. A restriction for cheating (player ID and reason) is kept while it is in force. You can delete your account and all data linked to it in the game (Settings › My data › Delete my account), see <a href="delete.html">Delete your account</a>. You can also ask us to delete any data linked to your device or your anonymous player ID (shown in Settings › My data) by emailing <a href="mailto:mineflow.games@gmail.com">mineflow.games@gmail.com</a> with the subject "Delete my data". Your cloud save can be deleted in the Google Play Games app. Uninstalling the game removes all progress stored on your device.</p>
 
 <h3>7. Children</h3>
 <p>The game is intended for players aged 13 and over. We do not knowingly collect personal information from children under 13. If you believe a child has used the game, contact us and we will delete related data.</p>
@@ -105,6 +106,7 @@
 <li><b>Ölkə kodu:</b> telefonun özündə mobil şəbəkə və ya SİM ölkəsindən, olmasa telefon dilinin bölgəsindən götürülür (profildə dəyişmək olar) — adın yanında bayraq, ölkə yarışı və ölkəyə görə qruplaşdırma üçün. IP ilə təyin olunmur, üçüncü tərəf xidməti işlənmir.</li>
 <li><b>Google Play Games (istəyə bağlı):</b> girişi seçsəniz Play Games oyunçu ID-si, görünən ad və bulud yaddaşında oyun tərəqqisi.</li>
 <li><b>Firebase (Authentication, Firestore):</b> anonim oyunçu ID-si, seçdiyiniz ad, ölkə kodu, turnir xalları, ölkə yarışı daşları, dəvət kodu qeydləri — liderlər cədvəli, ölkə yarışı və dəvət mükafatları üçün.</li>
+<li><b>Oyun xülasəsi (Firestore):</b> anonim oyunçu ID-sinə bağlı qısa xülasə: seçdiyiniz ad, ölkə kodu, dil, tətbiq versiyası və mağaza, qazanılan səviyyələr, oyunçu səviyyəsi, oyundaxili qəpik və kristal, alış sayı, VIP və reklamsız vəziyyəti, ilk oyun tarixi, oynanan günlər, son oynama vaxtı; həmçinin sizə göndərdiyimiz məktublar, hədiyyələr və hesab məhdudiyyəti — oyunçu dəstəyi (bizə yazanda hesabınızı tapmaq, hədiyyə və ya düzəliş göndərmək), reytinqlərdə ədalətli oyun və oyunun necə oynandığına dair sadə statistika üçün. 12 ay oynanmasa silinir; fırıldaq üçün məhdudiyyət (oyunçu ID-si və səbəb) qüvvədə olduğu müddətcə saxlanılır.</li>
 <li><b>Bildirişlər:</b> icazə versəniz FCM tokeni (tədbir elanları üçün); yerli xatırlatmalar telefonda yaranır, heç nə göndərmir.</li>
 <li><b>Google Play Billing:</b> alış məlumatı (sifariş ID, məhsul, status) — alışı çatdırmaq üçün.</li>
 </ul>
@@ -146,6 +148,7 @@
 <li><b>Ülke kodu:</b> telefonun kendisinde mobil ağ veya SIM ülkesinden, yoksa telefon dilinin bölgesinden alınır (profilde değiştirilebilir) — adın yanında bayrak, ülke yarışı ve ülkeye göre gruplama için. IP ile belirlenmez, üçüncü taraf hizmet kullanılmaz.</li>
 <li><b>Google Play Games (isteğe bağlı):</b> giriş yaparsanız Play Games oyuncu kimliği, görünen ad ve bulut kaydındaki oyun ilerlemesi.</li>
 <li><b>Firebase (Authentication, Firestore):</b> anonim oyuncu kimliği, seçtiğiniz ad, ülke kodu, turnuva puanları, ülke yarışı taşları, davet kodu kayıtları — liderlik tablosu, ülke yarışı ve davet ödülleri için.</li>
+<li><b>Oyun özeti (Firestore):</b> anonim oyuncu kimliğinize bağlı kısa özet: seçtiğiniz ad, ülke kodu, dil, uygulama sürümü ve mağaza, kazanılan seviyeler, oyuncu seviyesi, oyun içi altın ve kristal, satın alma sayısı, VIP ve reklamsız durumu, ilk oyun tarihi, oynanan gün sayısı, son oynama zamanı; ayrıca size gönderdiğimiz mesajlar, hediyeler ve hesap kısıtlaması — oyuncu desteği (bize yazdığınızda hesabınızı bulmak, hediye veya düzeltme göndermek), sıralamalarda adil oyun ve oyunun nasıl oynandığına dair basit istatistikler için. 12 ay oynanmazsa silinir; hile nedeniyle kısıtlama (oyuncu kimliği ve neden) yürürlükte olduğu sürece saklanır.</li>
 <li><b>Bildirimler:</b> izin verirseniz FCM jetonu (etkinlik duyuruları için); yerel hatırlatmalar telefonda oluşturulur, hiçbir şey göndermez.</li>
 <li><b>Google Play Billing:</b> satın alma bilgisi (sipariş kimliği, ürün, durum) — satın alımı teslim etmek için.</li>
 </ul>
